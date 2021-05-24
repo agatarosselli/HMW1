@@ -1,0 +1,1172 @@
+/*------------------------------------------------LOGO--------------------------------------------------------------*/
+#logo{
+    position: absolute;
+    left: 10px;
+    margin-left: 10px;
+    top: 10px;
+    padding: 2px;   
+}
+
+#logo img{      
+  width: 100px ;
+ height: auto;
+}
+
+/*-------------------------------------------------BODY-------------------------------------------------------------*/
+body {      
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;    
+}
+
+#testocentrale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+#testocentrale p{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Carter One', cursive;
+    color:ghostwhite;
+    text-shadow: 2px 3px 1px rgb(29, 28, 28);
+    letter-spacing: 1px;
+ 
+}
+
+#testocentrale h4{
+    font-family:Verdana, Tahoma, sans-serif;
+    margin-top: -10px;
+    text-shadow: 1.5px 2px 1px rgb(29, 28, 28);
+}
+
+/*-------------------------------------------------BARRA------------------------------------------------------------*/
+a{
+    cursor: pointer;                                
+}
+a:hover{                               
+    color: rgb(230, 28, 28);          
+}
+
+#comandi a:link{
+    text-decoration: none; color: white;
+   
+}
+#comandi a:visited{
+    text-decoration: none; color:white;
+   
+}
+#comandi a:hover{                               
+    color: rgb(230, 28, 28); 
+    border-bottom: 1px solid rgb(230, 28, 28);            
+}
+
+.bottone:link{
+    text-decoration: none; color: white;
+}
+.bottone:visited{
+    text-decoration: none; color:white;
+}
+.bottone:hover{                               
+    color: rgb(230, 28, 28);          
+}
+#comandi a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style:normal;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    position: relative; 
+ 
+   
+    margin: 7px; 
+    z-index: 1;
+}
+#comandi {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+a.bottone{
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px; 
+    margin-right: 10px;
+
+    padding: 6px 15px;
+    border: 2px solid white;
+    border-radius: 100px;
+   
+}
+
+/*------------------------------------------------HEADER------------------------------------------------------------*/
+header{
+    color:whitesmoke;
+    background-image: url(img/disegno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.secondapag{
+    height: 5vh;
+    background-image: none;
+ 
+}
+.secondapag::before{
+
+    background-color: rgba(0, 0, 0, 0.0)
+}
+.sezione{
+    padding: 2%;
+    background-color:white; /*rgb(170, 170, 170)*/
+}
+
+header nav 
+{
+    background-color:rgb(14, 12, 12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    offset: top;
+    font-size: 15px; 
+ 
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    padding:1% 3%;
+    z-index: 2;
+}
+
+
+header h1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 60px;
+    z-index: 1;
+}
+
+/*------------------------------------------------------PATINA------------------------------------------------------*/
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------------------------------------------MENU 3 LINEE-----------------------------------------------*/
+#menu{
+    display: none;
+
+}
+#menu div{
+    position: relative;
+    width: 25px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 5px  0;
+  
+}
+
+/*----------------------------------------------------LOGO ITF CATANIA----------------------------------------------*/
+.centro {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------SEZIONE 0 IN NERO-------------------------------------------------*/
+#main{
+    color:whitesmoke ;
+    background-color: #242523; 
+    padding: 1vw 1vh;
+
+    
+}
+#contenuto0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242523; 
+}
+
+#main img{
+    width: 270px;
+}
+
+#main p{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 120px;
+    width: 800;
+    font-size: 20px;
+    font-family: 'Truculenta', sans-serif;
+    text-align: center;   
+}
+
+/*----------------------------------------------------SEZIONE 1-----------------------------------------------------*/
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#details p{
+    font-size: 18px;
+   text-align: justify;
+   font-family:'Ropa Sans', sans-serif;
+}
+
+#tae p{
+    text-align: center ;
+}
+
+#details h1{
+    font-family: 'Truculenta', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+}
+
+#contenuto  img{
+    width: 100%;
+   margin: auto;
+   height: auto;
+}
+
+#txt2 p{
+    text-align: center;
+}
+
+#details div{
+    flex: 35%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contenuto{    
+    background-color:white;
+}
+
+/*--------------------------------------------------------SEZIONE 2-------------------------------------------------*/
+#contenuto2{
+    color:whitesmoke ;
+    background-color: black;
+    padding: 1vw 1vh;
+}
+
+#details2 div{   
+    margin: 5px;
+    width: 30%;
+    height: auto;   
+}
+
+#details2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto; 
+}
+
+#details2 h1{   
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;  
+}
+
+#details2 h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+}
+
+#details2 p{
+    font-size: 20px;
+   text-align: left;
+   font-family: 'Truculenta', sans-serif;
+}
+
+#contenuto2  img{
+    width: 100%;
+    height: auto;
+}
+
+#giallo{
+    color: yellow;
+}
+#verde{
+    color: green;
+}
+#blu{
+    color:rgb(33, 33, 230);
+}
+#rosso{
+    color: rgb(255, 16, 16);
+}
+#nero{
+    color: rgb(136, 134, 134);
+}
+
+/*--------------------------------------------------FOOTER----------------------------------------------------------*/
+footer{
+    background-color: rgb(31, 31, 31);
+    color: rgba(255, 255, 255, .8);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Truculenta', sans-serif;
+}
+
+#social
+{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#social img{
+    width: 40px;
+    height: auto;
+}
+
+#nome{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+    
+#matricola{
+    font-size: 12px; 
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#barraricerca{
+    display: flex;
+    justify-content: center;
+}
+#sez1 h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Truculenta', sans-serif; 
+
+    font-size: 5vh;
+}
+#sezcolorata{
+    background-color:#00bbff;
+   
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#preferiti h2{
+    font-family:'Truculenta', sans-serif ;
+    color:darkred;
+    padding-left: 10%;
+
+}
+input{
+    border:2px solid transparent;
+    border-radius: 100px;
+    padding: 10px 30px;
+
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+input:focus{
+    outline: none;
+}
+
+/*---------------------------------------------------------MOBILE---------------------------------------------------*/
+@media(max-width: 850px){
+    body{
+        font-size: 14px;
+    }
+
+    #details{
+        flex-direction: row;    
+    }
+
+    header{
+        height: 50vh;
+        line-height: 1.2;
+    }
+    
+
+    #testocentrale{
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        
+    }
+
+
+    #comandi{
+        display: none;
+    }
+
+    #tasto{
+        display: none;
+    }
+    
+    #menu{
+        
+      display: block;
+      
+    }
+    
+    #logo img{
+      width: 35%;
+      height: auto;
+    }
+ 
+    header nav{
+        justify-content: flex-end;
+    }
+    
+}
+/*-----------------------------------------------------------------Immagini--------------------------------------------------------------------*/
+.persone{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    background-color:#00bbff;
+    padding: 2%;
+}
+
+.content{
+    display: flex;
+    width: 30%;
+    background-color: white; /*rgba(13, 47, 63, 0.836);*/
+    margin: 0.5%;
+
+    padding: 1%;
+    border-radius: 5%;
+    box-shadow:3px 3px 7px rgb(17, 17, 17);
+}
+.sinistra{
+    display: flex ; 
+    flex-direction:column ;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width: 100%;
+  
+}
+
+.sopra img{ /*immagine logo*/
+    width: 50%;
+}
+.sinistra a h1{ 
+    color:black;
+    margin:10%;
+    font-size: 1em;
+}
+.sinistra p{
+    color: black;
+    font-size: 1em;
+}
+
+.sopra{ 
+    display:flex;
+    justify-content: flex-end;
+    width:100%; 
+}
+
+.unico{ /*unica colonna di destra*/
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/*---------------------------------------------------------------DIV DEI PREFERITI---------------------------------------------*/
+.nuovElem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-color: rgb(6,19,51); /*09838ae*/
+    margin: 0.5%;
+
+    padding: 1.5%;
+    border-radius: 7%;
+    box-shadow:0px 0px 40px 9px rgba(0,0,0,0.45);
+}
+
+
+.nuovElem h1{
+    color:white;
+    font-size: 1.2em;
+}
+
+.sinistra h1{
+   color: black;
+   font-size: 1.2em;
+}
+
+.selezionati{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;  
+}
+
+.sezione div h2{
+  font-family: 'Truculenta', sans-serif;
+  color: rgb(6,19,51);
+  font-size: 30px;
+  
+}
+
+.selezionati div{
+    padding: 2%;
+}
+
+.bottCambio{
+    border-radius: 100px;
+    border: 2px solid black;
+    padding: 7px 9px;
+    font-weight: bold;
+    margin: 5%;
+    letter-spacing: 1px;
+}
+.bottCambio:hover{
+  background-color: #00bbff;
+  color: white; 
+  border: 2px solid white;
+}
+
+.simbpref{ /*Grandezza immagine aggiungi ai selezionati*/
+    width: 80%;
+    height: auto;
+}
+
+/*--------------------------------------page 2 taekwondo itf------------------------------------*/
+
+.parag{
+    font-family: 'Truculenta', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 1%;
+   
+}
+
+#firma{
+    text-align: right;
+    padding-right: 7%;
+}
+#cosae{
+    padding: 1%;
+
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+.contenitore img{
+    border-radius: 3.5%;
+    object-fit:cover; 
+     width: 250px;
+    height: 250px;
+    cursor: zoom-in;
+}
+.contenitore{
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+     border-radius: 7%;
+     margin: 1%;
+     padding: 0.5%;
+     border: 3px solid white;
+}
+#titGallery h1{
+ 
+    text-align: center;
+    font-family:'Truculenta', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 1px;
+ 
+}
+#titGallery{
+    padding: 2%;
+    background-color:rgb(249, 205,1);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+   margin-right: 5%;
+    margin-left: 5%;
+ }
+#album-view {
+  display: flex;
+       
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  background-color:rgb(249, 205,1);  
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  margin:2%;
+
+}
+
+#modal-view{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+
+ 
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-view img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+/*-------------------------------------------------------------pagina-istruttori--------------------------------------------------------------*/
+
+#riga img{
+    width: 15%;
+    height: auto;
+    border-radius: 50%; 
+    margin: 5%;
+    box-shadow:0px 0px 49px 9px rgba(0,0,0,0.45);
+    border: 2px solid white;
+    padding: 2px;
+    color:rgb(228, 211, 211);
+} 
+
+#riga h3{
+    font-family: 'Truculenta', sans-serif; 
+    font-size: 2em;
+}
+
+#riga{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#paragrafo{
+    text-align: justify;
+    padding: 1.5%;
+    font-family: 'Truculenta', sans-serif;
+    font-size: 1.2em;
+}
+
+#sfIstr{
+    background-color: rgb(180,154,201);
+    padding: 2%;
+}
+
+#footGallery{
+    background-color: rgb(17, 17, 17);
+}
+
+
+/*------------------------------------------------------------------sezione eventi -----------------------------------------------------------*/
+.evento{
+   border-radius: 10%;
+   border: 2px solid black;
+   padding: 1%;  
+    margin: 7%; 
+    background-color: rgba(251, 222, 178, 0.808);
+    box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.45);
+}
+.conten{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+.conten img{
+    margin: 2%;
+    height: 45px;
+}
+
+.conten h3{
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    color: black;
+   
+}
+
+.evento p{
+    font-family: 'Truculenta', sans-serif;
+    color: black;
+}
+
+#eventi{
+    background-color: rgb(224, 192, 141);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#appuntamenti{
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+    background-color: rgb(224, 192, 141);
+    padding: 2%;
+   
+}
+#sfondoEventi {
+ 
+ background-image: url(img/davide\ sfondo.jpg);
+ background-size: cover;
+ height: 100vh;
+
+}
+
+/*--------------------------------------------------*--------pagina di login--------------------------------------------------------------------*/
+.username div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;
+
+}
+.password div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;   
+}
+
+.name div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;
+  
+}
+.surname div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;  
+}
+.username1 div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;  
+}
+.email div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px; 
+}
+.confirm_password div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;  
+}
+.password1 div input{
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 5px 9px;  
+}
+
+.remember{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.allow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.submit{
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5%;
+}
+.signup{
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+.didascalia label{
+    font-size: 80%;
+}
+
+.riquadro{
+    border-radius: 8%;
+    border: 1px solid black;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: blanchedalmond;
+    background-color:black;
+    font-family: 'Truculenta', sans-serif;
+  
+    box-shadow: 2px 2px 15px 15px rgba(158, 156, 156, 0.397);
+}
+
+
+#riqIscriz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#riqLogin{
+    width: 300px;
+    height: auto;
+}
+#riqIscriz input{
+    margin-bottom: 5%;
+
+}
+
+.accedi{
+    padding: 7px 28px;
+    font-family: 'Truculenta', sans-serif;
+    border: 2px solid white;
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+.accedi:hover{
+    color: white; 
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgb(230, 28, 28);
+    
+}
+
+.login{
+    z-index: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.login2{
+    z-index: 1;
+    margin-top: 80px;
+    width: 40%;
+}
+
+.iscriviti:visited{
+    color: rgb(230, 28, 28);
+}
+
+.name{
+    margin: 2%;
+}
+.surname{
+    margin: 2%;
+}
+.email{
+    margin: 2%;
+}
+.username1{
+    margin: 2%;
+}
+.password1{
+    margin: 2%;
+}
+.confirm_password{
+    margin: 2%;
+}
+
+.avviso{
+    color:rgb(230, 28, 28);
+    font-style:oblique;
+}
+.error{
+    color:rgb(230, 28, 28);
+    font-style:oblique;
+    margin: 5%;
+    font-size: 1.2em;
+}
+#upload_original{
+    color: black;
+}
+/******************************************************************************************************/
+#contenutoAboutas{
+    background-color:rgb(161, 159, 159);
+    /*border-radius: 7%;*/
+  }
+
+  #dovesiamo{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      padding-bottom: 4%;
+  }
+  #dovesiamo div{
+      padding: 5%;
+  }
+  .testoAboutas{
+      padding: 1%;
+      text-align: center;
+      font-family: 'Truculenta', sans-serif; 
+      color:rgb(143, 4, 1);
+      font-size: 25px;
+  }
+  .testoTa{
+    text-align: center;
+    font-family: 'Truculenta', sans-serif; 
+    color:rgb(143, 4, 1);
+    font-size: 25px; 
+  }
+  iframe {
+      box-shadow:4px 6px 15px rgb(29, 28, 28); 
+   
+  }
+  #mappa{
+      width: 600px;
+      height: 450px;
+      
+  
+  }
+  
+  .iconeAbout img{
+  
+      width: 12%;
+      height: auto;
+      margin:2%;
+
+  }
+  
+
+  .iconeAbout a:link{
+     color: black;
+   
+}
+.iconeAbout a:visited{
+    text-decoration: none; color: black;
+
+}
+.iconeAbout a:hover{                               
+    color:white;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 6px 15px;
+    background-color: rgb(143, 4, 1);
+}
+
+.iconeAbout a{
+    font-family: 'Truculenta', sans-serif;
+    font-size: 1.2em;
+    
+}
+  
+  #sezlaterale{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+       width: 600px;
+  
+  }
+  
+  #sezlaterale div{
+      display: flex;
+      align-items: center;
+      
+  }
+  /******************************************************************************/
+  .singoloIstr{
+    border-radius: 30px;
+    border: 2px solid white;
+    display: flex;
+    width: 30%;
+   padding: 2%;
+    align-items: center;
+    flex-direction: column;    
+     margin: 4%;
+     background-color: white;
+  }
+  .intestazione{
+     
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+    justify-content: center;
+    padding: 2%;
+     
+  }
+  .divParag{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .scheda{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+  }
+  .divfoto img{
+      width: 50%;
+      border-radius: 100%;
+  }
+
+  .divfoto{
+      width: 50%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;  
+  }
+
+  #TestoaboutAs2{
+      color:black;
+      font-size: 20px;
+  }
+  .segui{
+      border: 2px solid black;
+      border-radius: 80%;
+      font-size: 15px;
+      background-color: rgb(230, 28, 28);
+      padding: 12px 12px;
+  
+  }
+
+  #video{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  #video1{
+      display: flex;
+      align-items: center; 
+  }
+  #video2{
+      display: flex;
+      align-items: center;
+  }
+
+  #video1 video{
+      margin: 2%;
+  }
+
+  #video2 video{
+      margin: 2%;
+  }
+
+  
+.segui:link{
+    text-decoration: none; color:white;
+   
+}
+.segui:visited{
+    text-decoration: none; color:white;
+
+}
+.segui:hover{                               
+    color: white;
+    border-bottom: 1px solid rgb(230, 28, 28); 
+    background-color: rgb(230, 28, 28);           
+}
+
+.istruttoriTitolo{
+    font-size: 3.2em;
+    font-family: 'Truculenta', sans-serif;
+    color: white;
+}
+.titoliqual{
+    font-family: 'Truculenta', sans-serif;
+    color: rgb(143, 4, 1);
+}
+
+.titIstruttori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+   
+    background-color:rgb(249, 205,1);
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius:90px;
+     margin-right: 5%;
+    margin-left: 5%;
+}
+#Istr{
+ background-color:rgb(249, 205,1);  
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.bottCambio2{
+    border-radius: 100px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: white;
+    padding: 7px 10px;
+   font-weight: bold;
+   letter-spacing: 1px;
+ 
+}
+
+
+.bottCambio2:hover{
+  background-color: rgb(143, 4, 1);
+  color: white; 
+  border: 2px solid white;
+}
+
